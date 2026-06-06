@@ -29,6 +29,33 @@ header h1{
     font-size:2.5rem;
 }
 
+.logo{
+    width:90px;
+    height:auto;
+    margin-bottom:10px;
+}
+
+nav{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    padding:8px 12px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:rgba(255,255,255,0.15);
+}
+    
 .hero{
     background:#0d47a1;
     color:white;
@@ -292,17 +319,31 @@ footer{
 <body>
 
 <header>
-    <h1>JDS Robotics Industry</h1>
-    <p>AI | Robotics | Coding | STEM Education Solutions</p>
+
+<h1>JDS Robotics Industry</h1>
+
+<p>AI | Robotics | Coding | STEM Education Solutions</p>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#vision">Vision</a>
+    <a href="#products">Products</a>
+    <a href="#about">About JDS</a>
+    <a href="#founder">Founder</a>
+    <a href="#advisory">Advisory</a>
+    <a href="#partners">Schools</a>
+    <a href="#contact">Contact</a>
+</nav>
+
 </header>
 
-<section class="hero">
+<section class="hero" id="home">
     <h2>Future Ready Robotics Products</h2>
     <p>Manufacturing STEM, AI & Robotics Products for Schools and Institutions</p>
     <a href="#products" class="btn">Explore Products</a>
 </section>
 
-<section class="vision">
+<section class="vision" id="vision">
     <h2>Our Vision</h2>
     <p>
         To empower students with future-ready skills in Artificial Intelligence,
@@ -431,7 +472,7 @@ laboratory solution for schools.
 
 </section>
 
-<section class="about">
+<section class="about" id="about">
 <h2>About JDS Robotics Industry</h2>
 <br>
 
@@ -445,7 +486,7 @@ Through innovation, quality, and industry-oriented education, JDS Robotics Indus
 
 </section>
 
-<section class="founder">
+<section class="founder" id="founder">
     <h2>About the Founder</h2>
 
     <p>
@@ -462,7 +503,7 @@ Through innovation, quality, and industry-oriented education, JDS Robotics Indus
     </p>
 </section>
 
-<section class="advisory">
+<section class="advisory" id="advisory">
 
 <h2>Advisory Committee</h2>
 
@@ -512,7 +553,7 @@ Through innovation, quality, and industry-oriented education, JDS Robotics Indus
 
 </section>
 
-<section class="partners">
+<section class="partners" id="partners">
 
 <h2>Our Partners</h2>
 
@@ -564,7 +605,7 @@ future-ready skills through practical and hands-on learning experiences.
 
 </section>
 
-<section class="contact">
+<section class="contact" id="contact">
 
 <h2>Contact Us</h2>
 
