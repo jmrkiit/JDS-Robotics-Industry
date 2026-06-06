@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, sans-serif;
+    font-family:Arial,sans-serif;
 }
 
 body{
@@ -28,18 +29,11 @@ header h1{
     font-size:2.5rem;
 }
 
-header p{
-    margin-top:10px;
-}
-
 .hero{
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url('https://images.unsplash.com/photo-1535378917042-10a22c95931a');
-    background-size:cover;
-    background-position:center;
+    background:#0d47a1;
     color:white;
     text-align:center;
-    padding:100px 20px;
+    padding:80px 20px;
 }
 
 .hero h2{
@@ -67,13 +61,14 @@ header p{
 }
 
 .products h2{
-    margin-bottom:30px;
     color:#0d47a1;
+    margin-bottom:30px;
+    font-size:2.2rem;
 }
 
 .product-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:25px;
 }
 
@@ -82,16 +77,11 @@ header p{
     border-radius:10px;
     overflow:hidden;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
-    transition:0.3s;
-}
-
-.card:hover{
-    transform:translateY(-5px);
 }
 
 .card img{
     width:100%;
-    height:220px;
+    height:280px;
     object-fit:cover;
 }
 
@@ -106,9 +96,9 @@ header p{
 
 .price{
     color:#28a745;
-    font-size:1.3rem;
+    font-size:1.5rem;
     font-weight:bold;
-    margin:10px 0;
+    margin:15px 0;
 }
 
 .buy-btn{
@@ -116,8 +106,8 @@ header p{
     background:#0d47a1;
     color:white;
     padding:10px 20px;
-    text-decoration:none;
     border-radius:5px;
+    text-decoration:none;
 }
 
 .about{
@@ -129,7 +119,7 @@ header p{
 .contact{
     background:#0d47a1;
     color:white;
-    padding:40px 20px;
+    padding:50px 20px;
     text-align:center;
 }
 
@@ -151,69 +141,100 @@ footer{
 
 <section class="hero">
     <h2>Future Ready Robotics Products</h2>
-    <p>Manufacturing STEM, AI & Robotics Products for Schools, Colleges & Training Centers</p>
-    <a href="#products" class="btn">View Products</a>
+    <p>Manufacturing STEM, AI & Robotics Products for Schools and Institutions</p>
+    <a href="#products" class="btn">Explore Products</a>
 </section>
 
 <section class="products" id="products">
-    <h2>Our Products</h2>
 
-    <div class="product-grid">
+<h2>Our Products</h2>
 
-        <div class="card">
-            <img src="https://via.placeholder.com/400x250" alt="Arduino Kit">
-            <div class="card-content">
-                <h3>Arduino Starter Kit</h3>
-                <p>Complete kit for beginners to learn electronics and coding.</p>
-                <div class="price">₹2,999</div>
-                <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-        </div>
+<div class="product-grid">
 
-        <div class="card">
-            <img src="https://via.placeholder.com/400x250" alt="Robotics Kit">
-            <div class="card-content">
-                <h3>STEM Robotics Kit</h3>
-                <p>Build robots and learn automation with practical projects.</p>
-                <div class="price">₹4,999</div>
-                <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-        </div>
+<div class="card">
+<img src="images/product1.jpeg" alt="Innovation Robotics Kit">
 
-        <div class="card">
-            <img src="https://via.placeholder.com/400x250" alt="AI Lab">
-            <div class="card-content">
-                <h3>AI & Robotics Lab Setup</h3>
-                <p>Complete AI, Robotics & Coding Lab Solution for Schools.</p>
-                <div class="price">₹49,999</div>
-                <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-        </div>
+<div class="card-content">
+<h3>Innovation Robotics Kit</h3>
 
-    </div>
+<p>
+Complete robotics learning kit for students,
+innovation labs and STEM education.
+</p>
+
+<div class="price">₹5,199</div>
+
+<a href="#" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product2.jpeg" alt="Arduino Startup Kit">
+
+<div class="card-content">
+<h3>Arduino Startup Kit</h3>
+
+<p>
+Ideal starter kit for learning Arduino,
+coding and electronics projects.
+</p>
+
+<div class="price">₹2,999</div>
+
+<a href="#" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/product3.jpeg" alt="AI & Robotics Lab Setup">
+
+<div class="card-content">
+<h3>AI & Robotics Lab Setup</h3>
+
+<p>
+Complete AI, Robotics, Coding and STEM
+laboratory solution for schools.
+</p>
+
+<div class="price">₹74,999 - ₹4,99,999</div>
+
+<a href="#" class="buy-btn">Buy Now</a>
+</div>
+</div>
+
+</div>
+
 </section>
 
 <section class="about">
-    <h2>About JDS Robotics Industry</h2>
-    <br>
-    <p>
-        Registered Manufacturing Company with ZED Certified Products.
-        Specialized in AI, Robotics, Coding, STEM Education, IoT and Automation Projects.
-        Business Collaboration with ACE BOTT LTD., China.
-    </p>
+<h2>About JDS Robotics Industry</h2>
+<br>
+
+<p>
+Registered Manufacturing Company with ZED Certified Products.
+Specialized in AI, Robotics, Coding, STEM Education, IoT and Automation Projects.
+Business Collaboration with ACEBOTT Ltd., China.
+Serving schools and educational institutions with innovative technology solutions.
+</p>
+
 </section>
 
 <section class="contact">
-    <h2>Contact Us</h2>
-    <br>
-    <p>📍 Khevat No.244, Plot No.27,28,29 Adampur Road, Agroha, Hisar-125047</p>
-    <p>📞 +91-9899642693 | +91-9354235843</p>
-    <p>📧 jdsrobo@gmail.com</p>
+
+<h2>Contact Us</h2>
+<br>
+
+<p>📍 Agroha, Hisar, Haryana - 125047</p>
+<p>📞 +91-9899642693</p>
+<p>📞 +91-9354235843</p>
+<p>📧 jdsrobo@gmail.com</p>
+
 </section>
 
 <footer>
-    <p>© 2026 JDS Robotics Industry | All Rights Reserved</p>
+© 2026 JDS Robotics Industry | All Rights Reserved
 </footer>
 
 </body>
 </html>
+```
