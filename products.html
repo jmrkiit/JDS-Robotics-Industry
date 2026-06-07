@@ -86,16 +86,12 @@ nav a:hover{
 
 .stem-layout{
     display:grid;
-    grid-template-columns:1fr 3fr;
+    grid-template-columns:1fr 1fr;
     gap:25px;
     max-width:1200px;
     margin:30px auto;
 }
 
-.p6-card img{
-    height:900px;
-    object-fit:contain;
-}
 
 .left-column{
     display:flex;
@@ -156,6 +152,17 @@ footer{
     margin-top:40px;
 }
 
+.p6-image{
+    height:700px !important;
+    width:100% !important;
+    object-fit:cover !important;
+    padding:0 !important;
+}
+
+.p6-card{
+    min-height:900px;
+}
+    
 </style>
 </head>
 
@@ -343,7 +350,7 @@ footer{
 
     <div class="card p6-card">
 
-        <img src="images/product6.jpeg" alt="Senior School STEM Projects Kit">
+        <img class="p6-image" src="images/product6.jpeg" alt="Senior School STEM Projects Kit">
 
         <div class="card-content">
 
